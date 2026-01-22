@@ -63,12 +63,12 @@
         "full_width": true,
         "stack_on_mobile": false,
         "title": "",
-        "heading_tag": "h6",
+        "heading_tag": "h5",
         "text_alignment": "center",
         "icon_spacing": "small",
-        "background": "",
+        "background": "#faf7fc",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#33173b"
       }
     },
     "footer": {
@@ -88,13 +88,13 @@
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
-            "menu_title": ""
+            "menu_title": "Informations Légales"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
+            "title": "Contactez-Nous",
             "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
             "enable_follow_on_shop": true
           }
