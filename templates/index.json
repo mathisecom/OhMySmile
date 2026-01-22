@@ -75,14 +75,6 @@
             "url": ""
           }
         },
-        "image_beynmH": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Press_Logos.svg",
-            "url": ""
-          }
-        },
         "image_WE3wpx": {
           "type": "image",
           "settings": {
@@ -102,7 +94,6 @@
         "image_rXbxPT",
         "image_KPdeUg",
         "image_KEtHrd",
-        "image_beynmH",
         "image_WE3wpx",
         "image_FLJ87a"
       ],
@@ -125,9 +116,9 @@
         "card_width_desktop": 130,
         "card_width_mobile": 100,
         "heading_color": "#121212",
-        "layout_bg_color": "#FFFFFF",
+        "layout_bg_color": "#f8ffa8",
         "layout_border_color": "#121212",
-        "background_color": "#FFFFFF",
+        "background_color": "#f8ffa8",
         "border_color": "#121212",
         "margin_top": 0,
         "margin_bottom": 0,
