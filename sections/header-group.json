@@ -17,13 +17,21 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "SOLDES D'HIVER - 25% DE RÉDUCTION",
+            "url": ""
+          }
+        },
+        "message_pQFYaG": {
+          "type": "message",
+          "settings": {
+            "text": "LIVRAISON OFFERTE",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_pQFYaG"
       ],
       "settings": {
         "enable_sticky": false,
