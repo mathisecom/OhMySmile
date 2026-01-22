@@ -156,6 +156,12 @@
             "show_taxes_notice": false
           }
         },
+        "rapi_bundles_rapi_bundle_epEtyy": {
+          "type": "shopify://apps/rapi-bundles/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "settings": {
+            "product": "{{section.settings.product}}"
+          }
+        },
         "rating_JrfR9C": {
           "type": "rating",
           "disabled": true,
@@ -236,12 +242,23 @@
             "content": "<p>Share some content to your customers about your products.</p>",
             "page": ""
           }
+        },
+        "collapsible_text_RTN6EX": {
+          "type": "collapsible_text",
+          "settings": {
+            "icon": "none",
+            "icon_width": 20,
+            "title": "Mode D'Emploi",
+            "content": "<p>Share some content to your customers about your products.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "liquid_AXwPmX",
         "title_ki9VnN",
         "price_HVB8P3",
+        "rapi_bundles_rapi_bundle_epEtyy",
         "rating_JrfR9C",
         "separator_nbBQ7w",
         "description_wU7EGd",
@@ -251,7 +268,8 @@
         "liquid_X3cR4r",
         "liquid_7mHG8P",
         "collapsible_text_KDEwwN",
-        "collapsible_text_fqCafz"
+        "collapsible_text_fqCafz",
+        "collapsible_text_RTN6EX"
       ],
       "name": "Featured product",
       "settings": {
