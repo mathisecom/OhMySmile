@@ -95,8 +95,8 @@
           "type": "text",
           "settings": {
             "title": "Contactez-Nous",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
-            "enable_follow_on_shop": true
+            "content": "<p>Besoin de conseils, contactez-nous au <strong>+33 9 80 80 19 96 (appel gratuit)</strong></p><p>contact@ohmysmile.fr</p>",
+            "enable_follow_on_shop": false
           }
         }
       },
