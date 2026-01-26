@@ -307,7 +307,7 @@
           "type": "quote",
           "settings": {
             "logo": "shopify://shop_images/CREA_1080X1080_-_2026-01-26T184245.746.png",
-            "logo_width": 75,
+            "logo_width": 65,
             "author": "",
             "content": "Write some content about what they says about your store.",
             "show_rating": true,
@@ -318,7 +318,7 @@
           "type": "quote",
           "settings": {
             "logo": "shopify://shop_images/CREA_1080X1080_-_2026-01-26T184218.049.png",
-            "logo_width": 75,
+            "logo_width": 65,
             "author": "",
             "content": "Write some content about what they says about your store.",
             "show_rating": true,
@@ -329,7 +329,7 @@
           "type": "quote",
           "settings": {
             "logo": "shopify://shop_images/CREA_1080X1080_-_2026-01-26T184210.901.png",
-            "logo_width": 75,
+            "logo_width": 65,
             "author": "",
             "content": "Write some content about what they says about your store.",
             "show_rating": true,
