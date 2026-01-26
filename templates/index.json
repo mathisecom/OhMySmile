@@ -513,7 +513,7 @@
           "settings": {
             "text": "+3,000 CLIENTS SATISFAITS",
             "heading_tag": "h3",
-            "text_color": "",
+            "text_color": "#54315e",
             "gradient": ""
           }
         }
@@ -587,7 +587,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "",
+        "testimonial_card_background": "#faf7fc",
         "testimonial_card_text_color": ""
       }
     },
