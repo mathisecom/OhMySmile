@@ -538,6 +538,22 @@
         "spacing": "none"
       }
     },
+    "scrolling_text_CjBYHR": {
+      "type": "scrolling-text",
+      "name": "Scrolling text",
+      "settings": {
+        "full_width": true,
+        "text": "Promotion text",
+        "text_size": "xsmall",
+        "text_style": "fill",
+        "scrolling_mode": "auto",
+        "scrolling_speed": 10,
+        "background": "#faf7fc",
+        "background_gradient": "",
+        "text_color": "",
+        "text_gradient": ""
+      }
+    },
     "media_with_text_bxkzwK": {
       "type": "media-with-text",
       "blocks": {
@@ -722,6 +738,7 @@
     "media_with_text_npRygy",
     "multi_column_jbTCx9",
     "media_with_text_EfPFia",
+    "scrolling_text_CjBYHR",
     "media_with_text_bxkzwK",
     "rich_text_QiD7k9",
     "testimonials_dzUN8e",
