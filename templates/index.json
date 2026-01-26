@@ -516,13 +516,13 @@
             "subheading": "",
             "title": "Heading",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
+            "link_text": "OBTENIR MAINTENANT",
             "link_url": "",
             "background": "#f8ffa8",
             "background_gradient": "",
             "text_color": "#54315e",
             "text_gradient": "",
-            "button_background": "",
+            "button_background": "#54315e",
             "button_text_color": ""
           }
         }
@@ -552,13 +552,13 @@
             "subheading": "",
             "title": "Heading",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "link_text": "",
+            "link_text": "OBTENIR MAINTENANT",
             "link_url": "",
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#33173b",
             "text_gradient": "",
-            "button_background": "",
+            "button_background": "#54315e",
             "button_text_color": ""
           }
         }
