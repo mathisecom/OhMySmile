@@ -629,7 +629,7 @@
             "rating": 4,
             "author": "John S.",
             "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "content": "<p>J’adore ce bain de bouche ! Je l’utilise chaque soir et ma bouche est fraîche plus longtemps qu’avec mon ancien produit. Et j’ai l’impression que mes dents sont plus lumineuses.</p>"
           }
         },
         "testimonial_XEy646": {
@@ -640,7 +640,7 @@
             "rating": 5,
             "author": "Mary U.",
             "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "content": "<p>Très agréable en bouche, pas du tout agressif. Goût doux et résultat visible au fil des jours. J’ai reçu des compliments sur mon sourire</p>"
           }
         },
         "testimonial_XaGypb": {
@@ -651,14 +651,38 @@
             "rating": 4,
             "author": "Joshua A.",
             "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "content": "<p>Je l’ai offert à toute la famille et tout le monde l’adore. Mes dents paraissent effectivement plus blanches et l’haleine reste fraîche. Excellent produit !</p>"
+          }
+        },
+        "testimonial_npX4U4": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Bonne sensation de propreté après chaque utilisation. Je vois une légère amélioration de la blancheur au bout de quelques semaines. Je recommande !</p>"
+          }
+        },
+        "testimonial_azxapc": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Super efficace et facile à intégrer à ma routine quotidienne. Mes dents sont plus éclatantes et j’ai moins de taches sur le café. Je suis conquise 👍</p>"
           }
         }
       },
       "block_order": [
         "testimonial_X8XfWq",
         "testimonial_XEy646",
-        "testimonial_XaGypb"
+        "testimonial_XaGypb",
+        "testimonial_npX4U4",
+        "testimonial_azxapc"
       ],
       "name": "Testimonials",
       "settings": {
