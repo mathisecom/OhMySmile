@@ -201,6 +201,14 @@
           "disabled": true,
           "settings": {}
         },
+        "image_VTH8Mg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DE_1.jpg",
+            "alignment": "center",
+            "max_width": 250
+          }
+        },
         "buy_buttons_RJ4Vgb": {
           "type": "buy_buttons",
           "settings": {
@@ -265,6 +273,7 @@
         "description_wU7EGd",
         "variant_picker_L46gFe",
         "quantity_selector_hWEaq4",
+        "image_VTH8Mg",
         "buy_buttons_RJ4Vgb",
         "liquid_X3cR4r",
         "liquid_7mHG8P",
@@ -432,6 +441,65 @@
         "full_width": false,
         "alternate_media_position": false,
         "spacing": "small"
+      }
+    },
+    "multi_column_jbTCx9": {
+      "type": "multi-column",
+      "blocks": {
+        "item_CRRgYU": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_chnMdr": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_Y6nT6B": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_CRRgYU",
+        "item_chnMdr",
+        "item_Y6nT6B"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "background": "#faf7fc",
+        "background_gradient": "",
+        "text_color": "#33173b"
       }
     },
     "media_with_text_EfPFia": {
@@ -651,6 +719,7 @@
     "press_MEr9Aa",
     "logo_list_D8rYc9",
     "media_with_text_npRygy",
+    "multi_column_jbTCx9",
     "media_with_text_EfPFia",
     "media_with_text_bxkzwK",
     "rich_text_QiD7k9",
