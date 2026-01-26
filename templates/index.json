@@ -158,7 +158,7 @@
           }
         },
         "rapi_bundles_rapi_bundle_epEtyy": {
-          "type": "shopify://apps/rapi-bundles/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
           "settings": {
             "product": "{{section.settings.product}}"
           }
@@ -595,6 +595,12 @@
     "rich_text_QiD7k9": {
       "type": "rich-text",
       "blocks": {
+        "subheading_Fi96ti": {
+          "type": "subheading",
+          "settings": {
+            "text": "ILS EN PARLENT MIEUX QUE NOUS"
+          }
+        },
         "heading_B7CygF": {
           "type": "heading",
           "settings": {
@@ -606,6 +612,7 @@
         }
       },
       "block_order": [
+        "subheading_Fi96ti",
         "heading_B7CygF"
       ],
       "name": "Rich text",
