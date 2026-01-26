@@ -206,7 +206,7 @@
           "settings": {
             "image": "shopify://shop_images/DE_1.jpg",
             "alignment": "center",
-            "max_width": 250
+            "max_width": 230
           }
         },
         "buy_buttons_RJ4Vgb": {
@@ -553,9 +553,9 @@
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
             "link_text": "",
             "link_url": "",
-            "background": "#000000",
+            "background": "#ffffff",
             "background_gradient": "",
-            "text_color": "#ffffff",
+            "text_color": "#33173b",
             "text_gradient": "",
             "button_background": "",
             "button_text_color": ""
@@ -565,12 +565,11 @@
       "block_order": [
         "image_adUEem"
       ],
-      "disabled": true,
       "name": "Media with text",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "alternate_media_position": false,
-        "spacing": "small"
+        "spacing": "none"
       }
     },
     "rich_text_QiD7k9": {
