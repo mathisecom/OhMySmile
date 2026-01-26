@@ -306,7 +306,8 @@
         "quote_BCDBQh": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-01-26T184245.746.png",
+            "logo_width": 75,
             "author": "",
             "content": "Write some content about what they says about your store.",
             "show_rating": true,
@@ -316,7 +317,8 @@
         "quote_UTemta": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-01-26T184218.049.png",
+            "logo_width": 75,
             "author": "",
             "content": "Write some content about what they says about your store.",
             "show_rating": true,
@@ -326,7 +328,8 @@
         "quote_84RxTF": {
           "type": "quote",
           "settings": {
-            "logo_width": 100,
+            "logo": "shopify://shop_images/CREA_1080X1080_-_2026-01-26T184210.901.png",
+            "logo_width": 75,
             "author": "",
             "content": "Write some content about what they says about your store.",
             "show_rating": true,
