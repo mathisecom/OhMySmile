@@ -543,6 +543,7 @@
         "image_adUEem": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-01-26T171359.709.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
