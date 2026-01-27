@@ -156,6 +156,12 @@
             "heading_tag": "h3"
           }
         },
+        "liquid_EBXUMq": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "price_HVB8P3": {
           "type": "price",
           "disabled": true,
@@ -273,6 +279,7 @@
         "liquid_ythfX4",
         "liquid_AXwPmX",
         "title_ki9VnN",
+        "liquid_EBXUMq",
         "price_HVB8P3",
         "rapi_bundles_rapi_bundle_epEtyy",
         "rating_JrfR9C",
