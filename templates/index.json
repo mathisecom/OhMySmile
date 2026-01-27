@@ -156,10 +156,16 @@
             "heading_tag": "h3"
           }
         },
+        "text_QmUxHz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
         "liquid_EBXUMq": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div class=\"product-info__block-item\" data-block-id=\"liquid_HjcQtb\" data-block-type=\"liquid\"><div class=\"product-info__liquid\">\n              <div class=\"atc-bundle-sor__benefits\">\n        \n          \n        \n          \n        \n          \n        \n          \n            \n              \n              \n                \n                  <div class=\"atc-bundle-sor__benefit\">\n                    <div class=\"atc-bundle-sor__benefit-icon\">\n                      <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                        <path d=\"M12 5.33301L7.08361 10.3059C6.8876 10.5042 6.5673 10.5038 6.37172 10.3051L4 7.89578\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n                      </svg>\n                    </div>\n                    <span>Réduit la profondeur des rides</span>\n                  </div>\n                \n              \n                \n                  <div class=\"atc-bundle-sor__benefit\">\n                    <div class=\"atc-bundle-sor__benefit-icon\">\n                      <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                        <path d=\"M12 5.33301L7.08361 10.3059C6.8876 10.5042 6.5673 10.5038 6.37172 10.3051L4 7.89578\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n                      </svg>\n                    </div>\n                    <span>Atténue les taches pigmentaires</span>\n                  </div>\n                \n              \n                \n                  <div class=\"atc-bundle-sor__benefit\">\n                    <div class=\"atc-bundle-sor__benefit-icon\">\n                      <svg width=\"16\" height=\"16\" viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n                        <path d=\"M12 5.33301L7.08361 10.3059C6.8876 10.5042 6.5673 10.5038 6.37172 10.3051L4 7.89578\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"></path>\n                      </svg>\n                    </div>\n                    <span>Améliore la fermeté</span>\n                  </div>\n                \n              \n            \n          \n        \n          \n        \n          \n        \n          \n        \n          \n        \n          \n        \n          \n        \n      </div>\n            </div></div>"
+            "liquid": "<div class=\"icons-block\">\n                  <table class=\"product-table\">\n                    <tbody><tr>\n                      <td class=\"product-cell\">\n                        \n                          \n                            <img class=\"badge-image\" src=\"//thesmilist.co/cdn/shop/files/fraicheur_1d0185a4-8191-44ad-9d73-d87577acbf53.svg?v=1710417253\" alt=\"Badge Image\" width=\"40\" height=\"40\">\n                          \n                        \n                          \n                        \n                          \n                        \n                          \n                        \n                        <p>Haleine fraîche</p>\n                      </td>\n                      <td class=\"product-cell\">\n                        \n                          \n                        \n                          \n                            <img class=\"badge-image\" src=\"//thesmilist.co/cdn/shop/files/mauvaise_haleine.svg?v=1710417253\" alt=\"Badge Image\" width=\"40\" height=\"40\">\n                          \n                        \n                          \n                        \n                          \n                        \n                        <p>Anti-mauvaises odeurs</p>\n                      </td>\n                    </tr>\n                    <tr>\n                      <td class=\"product-cell\">\n                        \n                          \n                        \n                          \n                        \n                          \n                            <img class=\"badge-image\" src=\"//thesmilist.co/cdn/shop/files/taches.svg?v=1676887700\" alt=\"Badge Image\" width=\"40\" height=\"40\">\n                          \n                        \n                          \n                        \n                        <p>Bouche détoxifiée</p>\n                      </td>\n                      <td class=\"product-cell\">\n                        \n                          \n                        \n                          \n                        \n                          \n                        \n                          \n                            <img class=\"badge-image\" src=\"//thesmilist.co/cdn/shop/files/reequilibre_4c9593c2-0391-47fc-b568-bc7019106d34.svg?v=1676892932\" alt=\"Badge Image\" width=\"40\" height=\"40\">\n                          \n                        \n                        <p>Élimine les bactéries odorantes</p>\n                      </td>\n                    </tr>\n                  </tbody></table>\n                </div>"
           }
         },
         "price_HVB8P3": {
@@ -279,6 +285,7 @@
         "liquid_ythfX4",
         "liquid_AXwPmX",
         "title_ki9VnN",
+        "text_QmUxHz",
         "liquid_EBXUMq",
         "price_HVB8P3",
         "rapi_bundles_rapi_bundle_epEtyy",
@@ -525,6 +532,7 @@
         "image_UUnb99": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/clinically-proven_1500x_1a2d1050-e1b2-4510-ba2d-0d30aeb6b68a.webp",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center text-center",
