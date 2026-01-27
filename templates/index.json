@@ -135,93 +135,15 @@
         "lazy": true
       }
     },
-    "ss_scrolling_logo_cloud_5_Fhrf9j": {
-      "type": "ss-scrolling-logo-cloud-5",
-      "blocks": {
-        "image_jDVm68": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Logo_3.svg",
-            "url": ""
-          }
-        },
-        "image_EiB8xQ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Logo_5.svg",
-            "url": ""
-          }
-        },
-        "image_GtXjMJ": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Logo_6.svg",
-            "url": ""
-          }
-        },
-        "image_4HDGfM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Logo_8.svg",
-            "url": ""
-          }
-        },
-        "image_XnYtBz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Logo_2.svg",
-            "url": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_jDVm68",
-        "image_EiB8xQ",
-        "image_GtXjMJ",
-        "image_4HDGfM",
-        "image_XnYtBz"
-      ],
-      "name": "SS - Scrolling logo cloud #5",
-      "settings": {
-        "layout_radius": 30,
-        "layout_border_thickness": 0,
-        "heading": "",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 18,
-        "heading_size_mobile": 18,
-        "heading_height": 130,
-        "scrolling_velocity": 22,
-        "scrolling_velocity_mobile": 18,
-        "scrolling_direction": "left",
-        "pause_hover": false,
-        "scrolling_gap": 70,
-        "scrolling_gap_mobile": 52,
-        "card_width_desktop": 130,
-        "card_width_mobile": 100,
-        "heading_color": "#121212",
-        "layout_bg_color": "#f8ffa8",
-        "layout_border_color": "#121212",
-        "background_color": "#f8ffa8",
-        "border_color": "#121212",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 0,
-        "full_width": false,
-        "content_width": 1200,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
-    },
     "featured_product_TPFYjb": {
       "type": "featured-product",
       "blocks": {
+        "liquid_ythfX4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"main-product__block main-product__block-custom_liquid\">\n  <div class=\"m-product-text\">\n    <style>\n      .badges-container {\n        display: flex;\n        gap: 6px; /* Espacement entre les badges */\n        align-items: center;\n      }\n\n      .badge {\n        display: inline-block;\n        padding: 4px 10px;\n        font-size: 12px;\n        font-weight: bold;\n        color: white;\n        background: linear-gradient(135deg, #54315E, #6A3C78); /* Dégradé basé sur #54315E */\n        border-radius: 15px;\n        text-transform: uppercase;\n        white-space: nowrap;\n      }\n    </style>\n\n    <div class=\"badges-container\">\n      <div class=\"badge\">Best Seller</div>\n      <div class=\"badge\">94/100 Yuka - EXCELLENT 💚</div>\n    </div>\n  </div>\n</div>"
+          }
+        },
         "liquid_AXwPmX": {
           "type": "liquid",
           "settings": {
@@ -348,6 +270,7 @@
         }
       },
       "block_order": [
+        "liquid_ythfX4",
         "liquid_AXwPmX",
         "title_ki9VnN",
         "price_HVB8P3",
@@ -674,6 +597,90 @@
         "full_width": true,
         "alternate_media_position": false,
         "spacing": "none"
+      }
+    },
+    "ss_scrolling_logo_cloud_5_Fhrf9j": {
+      "type": "ss-scrolling-logo-cloud-5",
+      "blocks": {
+        "image_jDVm68": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_3.svg",
+            "url": ""
+          }
+        },
+        "image_EiB8xQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_5.svg",
+            "url": ""
+          }
+        },
+        "image_GtXjMJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_6.svg",
+            "url": ""
+          }
+        },
+        "image_4HDGfM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_8.svg",
+            "url": ""
+          }
+        },
+        "image_XnYtBz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Logo_2.svg",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jDVm68",
+        "image_EiB8xQ",
+        "image_GtXjMJ",
+        "image_4HDGfM",
+        "image_XnYtBz"
+      ],
+      "name": "SS - Scrolling logo cloud #5",
+      "settings": {
+        "layout_radius": 30,
+        "layout_border_thickness": 0,
+        "heading": "",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 18,
+        "heading_size_mobile": 18,
+        "heading_height": 130,
+        "scrolling_velocity": 22,
+        "scrolling_velocity_mobile": 18,
+        "scrolling_direction": "left",
+        "pause_hover": false,
+        "scrolling_gap": 70,
+        "scrolling_gap_mobile": 52,
+        "card_width_desktop": 130,
+        "card_width_mobile": 100,
+        "heading_color": "#121212",
+        "layout_bg_color": "#f8ffa8",
+        "layout_border_color": "#121212",
+        "background_color": "#f8ffa8",
+        "border_color": "#121212",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 0,
+        "full_width": false,
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
       }
     },
     "rich_text_QiD7k9": {
