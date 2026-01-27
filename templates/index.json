@@ -152,14 +152,21 @@
         },
         "title_ki9VnN": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "heading_tag": "h3"
+          }
+        },
+        "text_dgniqM": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>OhMySmile® - Bain De Bouche Blanchissant</h3>"
           }
         },
         "text_QmUxHz": {
           "type": "text",
           "settings": {
-            "text": "<p>Un bain de bouche quotidien anti-taches qui révèle la blancheur naturelle des dents.</p>"
+            "text": "<p><strong>Un bain de bouche quotidien anti-taches qui révèle la blancheur naturelle des dents.</strong></p>"
           }
         },
         "liquid_EBXUMq": {
@@ -285,6 +292,7 @@
         "liquid_ythfX4",
         "liquid_AXwPmX",
         "title_ki9VnN",
+        "text_dgniqM",
         "text_QmUxHz",
         "liquid_EBXUMq",
         "price_HVB8P3",
