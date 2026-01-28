@@ -1246,29 +1246,45 @@
         "166442457738b23caf-0": {
           "type": "item",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+            "title": "Comment fonctionne l'effet violet correcteur ?",
+            "content": "<p>Le violet est la couleur opposée au jaune sur le cercle chromatique. Notre formule utilise des pigments violets qui neutralisent instantanément les tons jaunes de vos dents, révélant ainsi une blancheur naturelle. C'est un effet optique immédiat et sans danger pour votre émail.</p>"
           }
         },
         "166442457738b23caf-1": {
           "type": "item",
           "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+            "title": "À quelle fréquence dois-je utiliser OhMySmile® ?",
+            "content": "<p>Pour des résultats optimaux, utilisez OhMySmile® une à deux fois par jour, après votre brossage habituel. Rincez votre bouche pendant 30 secondes, puis recrachez. Aucun rinçage à l'eau nécessaire après utilisation.</p>"
           }
         },
         "166442457738b23caf-2": {
           "type": "item",
           "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+            "title": "Est-ce que OhMySmile® abîme l'émail des dents ?",
+            "content": "<p>Non, notre formule est spécialement conçue pour être douce pour l'émail. Contrairement aux produits blanchissants agressifs, OhMySmile® ne contient pas de peroxyde et n'altère pas la structure de vos dents. Il peut être utilisé quotidiennement en toute sécurité.</p>"
+          }
+        },
+        "item_rXgEPK": {
+          "type": "item",
+          "settings": {
+            "title": "Combien de temps dure l'effet blanchissant ?",
+            "content": "<p>L'effet violet correcteur est visible immédiatement après utilisation et dure plusieurs heures. Pour maintenir un sourire éclatant tout au long de la journée, nous recommandons une utilisation matin et/ou soir selon vos besoins.</p>"
+          }
+        },
+        "item_f8Yn46": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je utiliser OhMySmile® si j'ai les dents sensibles ?",
+            "content": "<p>L'effet violet correcteur est visible immédiatement après utilisation et dure plusieurs heures. Pour maintenir un sourire éclatant tout au long de la journée, nous recommandons une utilisation matin et/ou soir selon vos besoins.</p>"
           }
         }
       },
       "block_order": [
         "166442457738b23caf-0",
         "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "166442457738b23caf-2",
+        "item_rXgEPK",
+        "item_f8Yn46"
       ],
       "settings": {
         "full_width": true,
