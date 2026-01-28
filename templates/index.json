@@ -402,24 +402,28 @@
         "feature_YLAMyN": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/smileactives-safe-icon_1500x_a2af68af-f730-46ac-a13e-db093a238876.jpg",
             "text": "<b>Sûr et efficace, résultats prouvés</b>"
           }
         },
         "feature_ji78M6": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/smileactives-easy-icon_1500x_c3196229-43cc-42c6-932a-38773b83d01b.jpg",
             "text": "<b>Facile à intégrer à votre routine</b>"
           }
         },
         "feature_zMiwft": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/smileactives-mbg-icon_1500x_e9398541-01e4-4894-81c7-6e49e5385209.jpg",
             "text": "<b>Garantie satisfait ou remboursé 30 jours</b>"
           }
         },
         "feature_qgtYwB": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/smileactives-formula-icon_1500x_fef42eeb-849f-4cc0-bbd1-52eef0007d38.jpg",
             "text": "<b>Formule responsable et consciente</b>"
           }
         }
