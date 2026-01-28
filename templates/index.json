@@ -620,22 +620,29 @@
         "stat_k4ETV4": {
           "type": "stat",
           "settings": {
-            "percentage": "100%",
-            "description": "of subjects had clinically measured whiter teeth"
+            "percentage": "98%",
+            "description": "De nos clients ont constaté des dents visiblement plus blanches."
           }
         },
         "stat_74YTYi": {
           "type": "stat",
           "settings": {
-            "percentage": "94%",
-            "description": "of subjects reported their smile looks brighter"
+            "percentage": "96%",
+            "description": "De nos clients trouvent leur sourire plus lumineux."
           }
         },
         "stat_rUEHNN": {
           "type": "stat",
           "settings": {
             "percentage": "100%",
-            "description": "of subjects reported it was easy to use"
+            "description": "De nos clients estiment le produit simple et agréable à utiliser."
+          }
+        },
+        "stat_CnftaT": {
+          "type": "stat",
+          "settings": {
+            "percentage": "97%",
+            "description": "De nos clients trouvent leur sourire plus sain, et une haleine plus fraiche."
           }
         },
         "stat_JQgKyw": {
@@ -651,6 +658,7 @@
         "stat_k4ETV4",
         "stat_74YTYi",
         "stat_rUEHNN",
+        "stat_CnftaT",
         "stat_JQgKyw"
       ],
       "name": "Clinical Results",
