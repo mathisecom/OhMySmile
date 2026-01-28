@@ -414,13 +414,13 @@
         "feature_zMiwft": {
           "type": "feature",
           "settings": {
-            "text": "60-day money-back guarantee"
+            "text": "<b>Garantie satisfait ou remboursé 30 jours</b>"
           }
         },
         "feature_qgtYwB": {
           "type": "feature",
           "settings": {
-            "text": "Conscious Formula"
+            "text": "<b>Formule responsable et consciente</b>"
           }
         }
       },
