@@ -1166,7 +1166,7 @@
             "show_rating": true,
             "rating": 4,
             "author": "John S.",
-            "title": "Testimonial 1",
+            "title": "Fraîcheur Durable et Dents Plus Lumineuses",
             "content": "<p>J’adore ce bain de bouche ! Je l’utilise chaque soir et ma bouche est fraîche plus longtemps qu’avec mon ancien produit. Et j’ai l’impression que mes dents sont plus lumineuses.</p>"
           }
         },
@@ -1177,7 +1177,7 @@
             "show_rating": true,
             "rating": 5,
             "author": "Mary U.",
-            "title": "Testimonial 2",
+            "title": "Des Compliments Sur Mon Sourire !",
             "content": "<p>Très agréable en bouche, pas du tout agressif. Goût doux et résultat visible au fil des jours. J’ai reçu des compliments sur mon sourire</p>"
           }
         },
@@ -1187,8 +1187,8 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
+            "author": "Clarice O.",
+            "title": "Toute la Famille l'Adore",
             "content": "<p>Je l’ai offert à toute la famille et tout le monde l’adore. Mes dents paraissent effectivement plus blanches et l’haleine reste fraîche. Excellent produit !</p>"
           }
         },
@@ -1198,8 +1198,8 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
+            "author": "Manon D.",
+            "title": "Résultats Visibles Après Quelques Semaines",
             "content": "<p>Bonne sensation de propreté après chaque utilisation. Je vois une légère amélioration de la blancheur au bout de quelques semaines. Je recommande !</p>"
           }
         },
@@ -1209,8 +1209,8 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
+            "author": "Alice A.",
+            "title": "Fini les Taches de Café, Je Suis Conquise !",
             "content": "<p>Super efficace et facile à intégrer à ma routine quotidienne. Mes dents sont plus éclatantes et j’ai moins de taches sur le café. Je suis conquise 👍</p>"
           }
         }
@@ -1275,7 +1275,7 @@
           "type": "item",
           "settings": {
             "title": "Puis-je utiliser OhMySmile® si j'ai les dents sensibles ?",
-            "content": "<p>L'effet violet correcteur est visible immédiatement après utilisation et dure plusieurs heures. Pour maintenir un sourire éclatant tout au long de la journée, nous recommandons une utilisation matin et/ou soir selon vos besoins.</p>"
+            "content": "<p>Absolument ! OhMySmile® convient parfaitement aux dents sensibles car il n'utilise pas de produits chimiques agressifs. Sa formule douce respecte votre émail et vos gencives. En cas de sensibilité importante, commencez par une utilisation par jour.</p>"
           }
         }
       },
