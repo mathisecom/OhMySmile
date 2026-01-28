@@ -481,6 +481,7 @@
         "item_CRRgYU": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Use_Image_1_as_the_Base_image__Nano_Banana_Pro_53956.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
@@ -493,6 +494,7 @@
         "item_chnMdr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2026-01-27_at_13.26.02.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
