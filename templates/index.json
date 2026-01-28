@@ -852,7 +852,7 @@
         "feature_row_hMA36F": {
           "type": "feature_row",
           "settings": {
-            "feature_name": "Antioxidants",
+            "feature_name": "Effet Violet Correcteur",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -875,9 +875,8 @@
         },
         "feature_row_8mgQtP": {
           "type": "feature_row",
-          "disabled": true,
           "settings": {
-            "feature_name": "High Quality Adaptogens",
+            "feature_name": "Blancheur Instantanée",
             "primary_has_feature": true,
             "competitor_has_feature": false
           }
@@ -897,7 +896,7 @@
       "name": "SS - Comparison table #29",
       "settings": {
         "primary_title": "OhMySmile",
-        "primary_badge": "Convenient",
+        "primary_badge": "Végan et Bio",
         "competitor_title": "Autres",
         "competitor_badge": "",
         "content_align": "center",
@@ -908,7 +907,7 @@
         "column_radius": 16,
         "row_padding": 16,
         "image_width": 70,
-        "product_title_size": 18,
+        "product_title_size": 19,
         "feature_font_size": 14,
         "feature_font_weight": "600",
         "show_dividers": true,
