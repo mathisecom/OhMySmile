@@ -384,6 +384,64 @@
         "logo_item_border": ""
       }
     },
+    "why_ohmysmile_cpj9Ld": {
+      "type": "why-ohmysmile",
+      "blocks": {
+        "feature_kTWnBa": {
+          "type": "feature",
+          "settings": {
+            "text": "<b>Puissant contre les taches, doux pour votre budget</b>"
+          }
+        },
+        "feature_kVaTRr": {
+          "type": "feature",
+          "settings": {
+            "text": "<b>Fini les bandes et gouttières contraignantes</b>"
+          }
+        },
+        "feature_YLAMyN": {
+          "type": "feature",
+          "settings": {
+            "text": "<b>Sûr et efficace, résultats prouvés</b>"
+          }
+        },
+        "feature_ji78M6": {
+          "type": "feature",
+          "settings": {
+            "text": "<b>Facile à intégrer à votre routine</b>"
+          }
+        },
+        "feature_zMiwft": {
+          "type": "feature",
+          "settings": {
+            "text": "60-day money-back guarantee"
+          }
+        },
+        "feature_qgtYwB": {
+          "type": "feature",
+          "settings": {
+            "text": "Conscious Formula"
+          }
+        }
+      },
+      "block_order": [
+        "feature_kTWnBa",
+        "feature_kVaTRr",
+        "feature_YLAMyN",
+        "feature_ji78M6",
+        "feature_zMiwft",
+        "feature_qgtYwB"
+      ],
+      "name": "Why Smileactives",
+      "settings": {
+        "background_color": "#ffffff",
+        "title": "Pourquoi OhMySmile?",
+        "title_color": "#54315e",
+        "subtitle": "Obtenez un sourire sain et plein de confiance grâce à une routine simple et facile à adopter.",
+        "subtitle_color": "#54315e",
+        "feature_text_color": "#54315e"
+      }
+    },
     "logo_list_D8rYc9": {
       "type": "logo-list",
       "blocks": {
@@ -1056,6 +1114,7 @@
     "ss_scrolling_logo_cloud_5_7Umcbr",
     "featured_product_TPFYjb",
     "press_MEr9Aa",
+    "why_ohmysmile_cpj9Ld",
     "logo_list_D8rYc9",
     "before_after_image_hYK76x",
     "media_with_text_npRygy",
