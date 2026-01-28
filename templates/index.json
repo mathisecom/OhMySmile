@@ -507,6 +507,7 @@
         "item_Y6nT6B": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-01-28T110827.851.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
