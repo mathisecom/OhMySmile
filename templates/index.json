@@ -685,28 +685,28 @@
           "type": "stat",
           "settings": {
             "percentage": "98%",
-            "description": "De nos clients ont constaté des dents visiblement plus blanches."
+            "description": "<b>De nos clients ont constaté des dents visiblement plus blanches.</b>"
           }
         },
         "stat_74YTYi": {
           "type": "stat",
           "settings": {
             "percentage": "96%",
-            "description": "De nos clients trouvent leur sourire plus lumineux."
+            "description": "<b>De nos clients trouvent leur sourire plus lumineux.</b>"
           }
         },
         "stat_rUEHNN": {
           "type": "stat",
           "settings": {
             "percentage": "99%",
-            "description": "De nos clients estiment le produit simple et agréable à utiliser."
+            "description": "<b>De nos clients estiment le produit simple et agréable à utiliser.</b>"
           }
         },
         "stat_CnftaT": {
           "type": "stat",
           "settings": {
             "percentage": "97%",
-            "description": "De nos clients trouvent leur sourire plus sain, et une haleine plus fraiche."
+            "description": "<b>De nos clients trouvent leur sourire plus sain, et une haleine plus fraiche.</b>"
           }
         },
         "stat_JQgKyw": {
