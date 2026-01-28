@@ -390,6 +390,7 @@
         "feature_kTWnBa": {
           "type": "feature",
           "settings": {
+            "icon": "shopify://shop_images/smileactives-formula-icon_1500x_1.jpg",
             "text": "<b>Puissant contre les taches, doux pour votre budget</b>"
           }
         },
