@@ -590,6 +590,54 @@
         "text_gradient": ""
       }
     },
+    "clinical_results_B8dddQ": {
+      "type": "clinical-results",
+      "blocks": {
+        "stat_k4ETV4": {
+          "type": "stat",
+          "settings": {
+            "percentage": "100%",
+            "description": "of subjects had clinically measured whiter teeth"
+          }
+        },
+        "stat_74YTYi": {
+          "type": "stat",
+          "settings": {
+            "percentage": "94%",
+            "description": "of subjects reported their smile looks brighter"
+          }
+        },
+        "stat_rUEHNN": {
+          "type": "stat",
+          "settings": {
+            "percentage": "100%",
+            "description": "of subjects reported it was easy to use"
+          }
+        },
+        "stat_JQgKyw": {
+          "type": "stat",
+          "disabled": true,
+          "settings": {
+            "percentage": "92%",
+            "description": "of subjects reported their smile looks healthier"
+          }
+        }
+      },
+      "block_order": [
+        "stat_k4ETV4",
+        "stat_74YTYi",
+        "stat_rUEHNN",
+        "stat_JQgKyw"
+      ],
+      "name": "Clinical Results",
+      "settings": {
+        "image": "shopify://shop_images/Increase_photorealism_of_the_b_Nano_Banana_Pro_56504.jpg",
+        "title": "Résultats Prouvés",
+        "subtitle": "DANS UNE ÉTUDE CLINIQUE* :",
+        "button_text": "obtenir maintenant",
+        "button_link": ""
+      }
+    },
     "media_with_text_bxkzwK": {
       "type": "media-with-text",
       "blocks": {
@@ -977,6 +1025,7 @@
     "multi_column_jbTCx9",
     "media_with_text_EfPFia",
     "scrolling_text_CjBYHR",
+    "clinical_results_B8dddQ",
     "media_with_text_bxkzwK",
     "ss_scrolling_logo_cloud_5_Fhrf9j",
     "rich_text_QiD7k9",
