@@ -633,9 +633,13 @@
       "settings": {
         "image": "shopify://shop_images/Increase_photorealism_of_the_b_Nano_Banana_Pro_56504.jpg",
         "title": "Résultats Prouvés",
+        "title_color": "#54315e",
         "subtitle": "DANS UNE ÉTUDE CLINIQUE* :",
+        "percentage_color": "#54315e",
         "button_text": "obtenir maintenant",
-        "button_link": ""
+        "button_link": "",
+        "button_background": "#54315e",
+        "button_text_color": "#ffffff"
       }
     },
     "media_with_text_bxkzwK": {
