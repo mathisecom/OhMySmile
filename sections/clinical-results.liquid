@@ -36,7 +36,7 @@
   .clinical-results__title {
     font-size: 56px;
     font-weight: 700;
-    color: #5B4BA8;
+    color: {{ section.settings.title_color }};
     margin: 0 0 30px 0;
     line-height: 1.2;
     letter-spacing: -0.5px;
@@ -66,7 +66,7 @@
   .clinical-results__percentage {
     font-size: 56px;
     font-weight: 700;
-    color: #5B4BA8;
+    color: {{ section.settings.percentage_color }};
     min-width: 180px;
     line-height: 1;
   }
@@ -79,8 +79,8 @@
 
   .clinical-results__cta {
     display: inline-block;
-    background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
-    color: white;
+    background: {{ section.settings.button_background }};
+    color: {{ section.settings.button_text_color }};
     padding: 20px 60px;
     border-radius: 50px;
     text-decoration: none;
@@ -95,7 +95,8 @@
 
   .clinical-results__cta:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(255, 107, 107, 0.3);
+    box-shadow: 0 10px 25px {{ section.settings.button_background | color_modify: 'alpha', 0.3 }};
+    opacity: 0.9;
   }
 
   /* Responsive Mobile */
@@ -235,10 +236,22 @@
       "default": "Clinically Shown Results"
     },
     {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#5B4BA8"
+    },
+    {
       "type": "text",
       "id": "subtitle",
       "label": "Subtitle",
       "default": "IN A CLINICAL STUDY* :"
+    },
+    {
+      "type": "color",
+      "id": "percentage_color",
+      "label": "Percentage Color",
+      "default": "#5B4BA8"
     },
     {
       "type": "text",
@@ -250,6 +263,18 @@
       "type": "url",
       "id": "button_link",
       "label": "Button Link"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button Background Color",
+      "default": "#FF6B6B"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button Text Color",
+      "default": "#FFFFFF"
     }
   ],
   "blocks": [
