@@ -273,7 +273,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Formule et Ingrédients",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "content": "<h6><strong>Purple Color-Correcting</strong></h6><p>Corrige visuellement les tons jaunes pour un sourire instantanément plus lumineux. Un effet correcteur de couleur inspiré des soins de la peau.</p><h6><strong>Xylitol</strong></h6><p>Ingrédient reconnu en hygiène bucco-dentaire, il aide à limiter les bactéries responsables de la mauvaise haleine tout en apportant une douceur naturelle.</p><h6><strong>Huiles de Menthe Verte & Menthe Poivrée</strong></h6><p><em>(Spearmint & Peppermint Leaf Oil)</em><br/><br/>Apportent une fraîcheur intense et durable, pour une haleine propre et agréable après chaque utilisation.</p>",
             "page": ""
           }
         },
