@@ -793,9 +793,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "Purple Color-Correcting",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Neutralise visuellement les tons jaunes pour un sourire visiblement plus lumineux, instantanément. Un effet de correction de couleur inspiré du skincare.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -805,9 +805,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "Xylitol",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Un ingrédient reconnu en hygiène bucco-dentaire qui aide à réduire les bactéries responsables de la mauvaise haleine, tout en apportant une douceur naturelle.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -817,9 +817,9 @@
           "type": "item",
           "settings": {
             "column_size": "3",
-            "title": "Column title",
+            "title": "Huiles de Menthe Verte & Poivrée",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>(Spearmint & Peppermint Leaf Oil)<br/>Offrent une fraîcheur immédiate et durable, laissant une haleine propre et agréable après chaque rinçage.</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -840,7 +840,7 @@
         "subheading": "",
         "title": "Ingrédients Clés",
         "content": "",
-        "background": "",
+        "background": "#fffcff",
         "background_gradient": "",
         "text_color": ""
       }
