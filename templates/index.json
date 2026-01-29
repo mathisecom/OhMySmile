@@ -792,6 +792,7 @@
         "item_tLyBEg": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Ultra-realistic_cosmetic_ingre_Nano_Banana_Pro_56321.jpg",
             "column_size": "3",
             "title": "Purple Color-Correcting",
             "heading_tag": "h4",
@@ -804,6 +805,7 @@
         "item_VyiXJU": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Ultra-realistic_skincare_ingre_Nano_Banana_Pro_62887.jpg",
             "column_size": "3",
             "title": "Xylitol",
             "heading_tag": "h4",
@@ -816,6 +818,7 @@
         "item_rg6Hhc": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Ultra-realistic_cosmetic_ingre_Nano_Banana_Pro_04023.jpg",
             "column_size": "3",
             "title": "Huiles de Menthe Verte & Poivrée",
             "heading_tag": "h4",
