@@ -490,112 +490,6 @@
         "heading_gradient": ""
       }
     },
-    "image_link_blocks_cb4RBH": {
-      "type": "image-link-blocks",
-      "blocks": {
-        "item_r7ybzy": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/BANNER_MOBILE_53.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_7G4ih7": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_BANNER_MOBILE_2.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_XbbBNX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_BANNER_MOBILE.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_wyRzCt": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/BANNER_MOBILE_58.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_9mGzpX": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_BANNER_MOBILE_1.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        },
-        "item_dfWntw": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Copie_de_BANNER_MOBILE_3.jpg",
-            "stretch_image": true,
-            "link_text": "",
-            "link_url": "",
-            "background": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "item_r7ybzy",
-        "item_7G4ih7",
-        "item_XbbBNX",
-        "item_wyRzCt",
-        "item_9mGzpX",
-        "item_dfWntw"
-      ],
-      "name": "Image link blocks",
-      "settings": {
-        "full_width": false,
-        "block_size": "medium",
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "why_ohmysmile_cpj9Ld": {
       "type": "why-ohmysmile",
       "blocks": {
@@ -890,6 +784,65 @@
         "background_gradient": "",
         "text_color": "",
         "text_gradient": ""
+      }
+    },
+    "multi_column_CeNRFe": {
+      "type": "multi-column",
+      "blocks": {
+        "item_tLyBEg": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_VyiXJU": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_rg6Hhc": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "Column title",
+            "heading_tag": "h4",
+            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_tLyBEg",
+        "item_VyiXJU",
+        "item_rg6Hhc"
+      ],
+      "name": "Multi-column",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "Ingrédients Clés",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "clinical_results_B8dddQ": {
@@ -1270,6 +1223,112 @@
         "text_color": ""
       }
     },
+    "image_link_blocks_cb4RBH": {
+      "type": "image-link-blocks",
+      "blocks": {
+        "item_r7ybzy": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_53.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_7G4ih7": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_BANNER_MOBILE_2.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_XbbBNX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_BANNER_MOBILE.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_wyRzCt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/BANNER_MOBILE_58.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_9mGzpX": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_BANNER_MOBILE_1.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "item_dfWntw": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Copie_de_BANNER_MOBILE_3.jpg",
+            "stretch_image": true,
+            "link_text": "",
+            "link_url": "",
+            "background": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "item_r7ybzy",
+        "item_7G4ih7",
+        "item_XbbBNX",
+        "item_wyRzCt",
+        "item_9mGzpX",
+        "item_dfWntw"
+      ],
+      "name": "Image link blocks",
+      "settings": {
+        "full_width": false,
+        "block_size": "medium",
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "testimonials_dzUN8e": {
       "type": "testimonials",
       "blocks": {
@@ -1436,6 +1495,7 @@
     "multi_column_jbTCx9",
     "media_with_text_EfPFia",
     "scrolling_text_CjBYHR",
+    "multi_column_CeNRFe",
     "clinical_results_B8dddQ",
     "media_with_text_bxkzwK",
     "tabsvs_n6LDbb",
