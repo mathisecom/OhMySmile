@@ -263,7 +263,7 @@
             "icon": "none",
             "icon_width": 20,
             "title": "Détails Du Produit",
-            "content": "<p>Share some content to your customers about your products.</p>",
+            "content": "<h5>Doux & protecteur</h5><p>Formule respectueuse des bouches sensibles, adaptée à un usage quotidien.</p><h5>Blanchiment immédiat</h5><p>Technologie violette <strong>Color-Correct</strong> qui neutralise les tons jaunes pour un sourire visiblement plus blanc dès la première utilisation.</p><h5>Résultats rapides</h5><p>Jusqu’à <strong>+301 % de réduction des taches en 3 jours</strong> et <strong>99 % de bactéries éliminées</strong>.</p><h5>Haleine fraîche</h5><p>Fraîcheur longue durée et sensation de bouche propre en 24 h.</p><h5>Goût menthe marine</h5><p>Saveur menthe océan fraîche, sans sensation agressive.</p>",
             "page": ""
           }
         },
