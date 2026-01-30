@@ -892,6 +892,42 @@
         "text_color": ""
       }
     },
+    "media_with_text_n7GkMz": {
+      "type": "media-with-text",
+      "blocks": {
+        "image_PWiE4q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/CREA_1080X1080_-_2026-01-30T115941.522.jpg",
+            "media_width": 50,
+            "media_position": "start",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "POURQUOI NOUS CHOISIR ?",
+            "title": "Dentifrice VS Bain de Bouche OhMySmile",
+            "content": "<p>Le dentifrice blanchissant agit par abrasion et peut fragiliser l’émail, tandis que le bain de bouche <strong>Color-Correct</strong> neutralise visuellement les tons jaunes en <strong>30 secondes</strong> grâce à la correction colorimétrique. Une solution <strong>douce</strong>, adaptée aux bouches fragiles, pour un sourire immédiatement plus blanc.</p>",
+            "link_text": "OBTENIR MAINTENANT",
+            "link_url": "#shopify-section-template--25833213264250__featured_product_TPFYjb",
+            "background": "#fffcff",
+            "background_gradient": "",
+            "text_color": "#33173b",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PWiE4q"
+      ],
+      "name": "Media with text",
+      "settings": {
+        "full_width": false,
+        "alternate_media_position": false,
+        "spacing": "none"
+      }
+    },
     "clinical_results_B8dddQ": {
       "type": "clinical-results",
       "blocks": {
@@ -1544,6 +1580,7 @@
     "media_with_text_EfPFia",
     "scrolling_text_CjBYHR",
     "multi_column_CeNRFe",
+    "media_with_text_n7GkMz",
     "clinical_results_B8dddQ",
     "media_with_text_bxkzwK",
     "tabsvs_n6LDbb",
