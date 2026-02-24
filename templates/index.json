@@ -247,8 +247,9 @@
         "image_F4Jf4q": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Obtenez_2_pour_15.jpg",
             "alignment": "center",
-            "max_width": 310
+            "max_width": 500
           }
         },
         "liquid_X3cR4r": {
