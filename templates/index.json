@@ -244,6 +244,13 @@
             "payment_button_text_color": ""
           }
         },
+        "image_F4Jf4q": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "max_width": 310
+          }
+        },
         "liquid_X3cR4r": {
           "type": "liquid",
           "settings": {
@@ -303,6 +310,7 @@
         "variant_picker_L46gFe",
         "image_VTH8Mg",
         "buy_buttons_RJ4Vgb",
+        "image_F4Jf4q",
         "liquid_X3cR4r",
         "liquid_7mHG8P",
         "collapsible_text_KDEwwN",
