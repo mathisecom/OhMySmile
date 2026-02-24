@@ -163,6 +163,12 @@
             "text": "<h3>OhMySmile® - Bain De Bouche Blanchissant</h3>"
           }
         },
+        "price_HVB8P3": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
         "text_QmUxHz": {
           "type": "text",
           "settings": {
@@ -175,15 +181,9 @@
             "liquid": "<div class=\"icons-block\">\n  <table class=\"product-table\">\n    <tbody>\n      <tr>\n        <td class=\"product-cell\">\n          <img class=\"badge-image\" src=\"//thesmilist.co/cdn/shop/files/fraicheur_1d0185a4-8191-44ad-9d73-d87577acbf53.svg?v=1710417253\" alt=\"Haleine fraîche\" width=\"40\" height=\"40\">\n          <p>Haleine fraîche</p>\n        </td>\n        <td class=\"product-cell\">\n          <img class=\"badge-image\" src=\"//thesmilist.co/cdn/shop/files/mauvaise_haleine.svg?v=1710417253\" alt=\"Anti-mauvaises odeurs\" width=\"40\" height=\"40\">\n          <p>Anti-mauvaises odeurs</p>\n        </td>\n      </tr>\n      <tr>\n        <td class=\"product-cell\">\n          <img class=\"badge-image\" src=\"//thesmilist.co/cdn/shop/files/taches.svg?v=1676887700\" alt=\"Bouche détoxifiée\" width=\"40\" height=\"40\">\n          <p>Bouche détoxifiée</p>\n        </td>\n        <td class=\"product-cell\">\n          <img class=\"badge-image\" src=\"//thesmilist.co/cdn/shop/files/reequilibre_4c9593c2-0391-47fc-b568-bc7019106d34.svg?v=1676892932\" alt=\"Élimine les bactéries odorantes\" width=\"40\" height=\"40\">\n          <p>Élimine les bactéries odorantes</p>\n        </td>\n      </tr>\n    </tbody>\n  </table>\n</div>"
           }
         },
-        "price_HVB8P3": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
         "rapi_bundles_rapi_bundle_epEtyy": {
           "type": "shopify://apps/rapi/blocks/rapi-bundle/99617c17-a32b-4e70-a883-7a155610d032",
+          "disabled": true,
           "settings": {
             "product": "{{section.settings.product}}"
           }
@@ -209,6 +209,10 @@
             "collapse_content": false
           }
         },
+        "quantity_selector_hWEaq4": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
         "variant_picker_L46gFe": {
           "type": "variant_picker",
           "disabled": true,
@@ -220,11 +224,6 @@
             "variant_image_options": "",
             "size_chart_page": ""
           }
-        },
-        "quantity_selector_hWEaq4": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
         },
         "image_VTH8Mg": {
           "type": "image",
@@ -293,15 +292,15 @@
         "liquid_AXwPmX",
         "title_ki9VnN",
         "text_dgniqM",
+        "price_HVB8P3",
         "text_QmUxHz",
         "liquid_EBXUMq",
-        "price_HVB8P3",
         "rapi_bundles_rapi_bundle_epEtyy",
         "rating_JrfR9C",
         "separator_nbBQ7w",
         "description_wU7EGd",
-        "variant_picker_L46gFe",
         "quantity_selector_hWEaq4",
+        "variant_picker_L46gFe",
         "image_VTH8Mg",
         "buy_buttons_RJ4Vgb",
         "liquid_X3cR4r",
