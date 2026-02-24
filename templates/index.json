@@ -21,15 +21,15 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "Le premier bain de bouche correcteur de couleur.",
+            "title": "",
             "heading_tag": "h2",
             "button_text": "Découvrir",
-            "button_link": "#shopify-section-template--25833213264250__featured_product_TPFYjb",
+            "button_link": "",
             "text_color": "#ffffff",
             "button_background": "#54315e",
             "button_text_color": "#ffffff",
             "overlay_color": "#000000",
-            "overlay_opacity": 33,
+            "overlay_opacity": 0,
             "background": "#33173b",
             "background_gradient": "linear-gradient(180deg, rgba(251, 51, 166, 1), rgba(127, 72, 176, 1) 50%, rgba(48, 145, 211, 1) 100%)"
           }
