@@ -15,8 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Use_Image_1_as_the_Base_image__Nano_Banana_Pro_84456.jpg",
-            "mobile_image": "shopify://shop_images/Use_Image_1_as_the_Base_image__Nano_Banana_Pro_32253.jpg",
+            "image": "shopify://shop_images/Design_sans_titre_55.jpg",
+            "mobile_image": "shopify://shop_images/BANNER_MOBILE_87.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
