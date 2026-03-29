@@ -99,12 +99,18 @@
   /* ── Titre ── */
   .hero-{{ section.id }} .hero-title {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(2.1rem, 4.8vw, 3.6rem);
+    font-size: {{ section.settings.title_size_desktop }}px;
     font-weight: 800;
     color: #fff;
     line-height: 1.13;
     letter-spacing: -0.01em;
     margin-bottom: 20px;
+  }
+
+  @media (max-width: 640px) {
+    .hero-{{ section.id }} .hero-title {
+      font-size: {{ section.settings.title_size_mobile }}px;
+    }
   }
   .hero-{{ section.id }} .hero-title em {
     font-style: italic;
@@ -303,6 +309,26 @@
     {
       "type": "header",
       "content": "Contenu"
+    },
+    {
+      "type": "range",
+      "id": "title_size_desktop",
+      "label": "Taille du titre — Desktop",
+      "min": 24,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "default": 52
+    },
+    {
+      "type": "range",
+      "id": "title_size_mobile",
+      "label": "Taille du titre — Mobile",
+      "min": 18,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "default": 34
     },
     {
       "type": "text",
