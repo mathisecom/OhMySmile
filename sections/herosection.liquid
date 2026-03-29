@@ -202,7 +202,8 @@
   @media (max-width: 640px) {
     .hero-{{ section.id }} {
       align-items: flex-end;
-      min-height: 100svh;
+      height: {{ section.settings.mobile_height }}px;
+      min-height: unset;
       max-height: none;
     }
     .hero-{{ section.id }} .hero-overlay {
@@ -288,6 +289,16 @@
       "type": "image_picker",
       "id": "image_mobile",
       "label": "Image Mobile"
+    },
+    {
+      "type": "range",
+      "id": "mobile_height",
+      "label": "Hauteur de la bannière (mobile)",
+      "min": 400,
+      "max": 900,
+      "step": 10,
+      "unit": "px",
+      "default": 650
     },
     {
       "type": "header",
