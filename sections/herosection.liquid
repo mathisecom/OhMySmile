@@ -1,307 +1,364 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Hero Section</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+{{ 'https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,800;1,700&family=DM+Sans:wght@300;400;500;600&display=swap' | stylesheet_tag }}
 
-    body { font-family: 'DM Sans', sans-serif; }
+<style>
+  .hero-{{ section.id }} {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 600px;
+    max-height: 900px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
 
-    /* ═══════════════════════════════════════════
-       HERO SECTION
-    ═══════════════════════════════════════════ */
-    .hero {
-      position: relative;
-      width: 100%;
-      height: 100vh;
-      min-height: 600px;
-      max-height: 900px;
-      overflow: hidden;
-      display: flex;
-      align-items: center;
+  /* ── Background photo Desktop ── */
+  .hero-{{ section.id }} .hero-bg {
+    position: absolute;
+    inset: 0;
+    background-image: url('{{ section.settings.image_desktop | img_url: 'master' }}');
+    background-size: cover;
+    background-position: center top;
+    background-color: #5b21b6;
+  }
+
+  @media (max-width: 640px) {
+    .hero-{{ section.id }} .hero-bg {
+      background-image: url('{{ section.settings.image_mobile | img_url: 'master' }}');
     }
+  }
 
-    /* ── Background photo ── */
-    .hero-bg {
-      position: absolute;
-      inset: 0;
-      background-image: url('https://cdn.shopify.com/s/files/1/0934/8841/5098/files/Use_Image_1_as_the_Base_image__Nano_Banana_Pro_84456.jpg?v=1769117006');
-      background-size: cover;
-      background-position: center top;
-      background-color: #5b21b6;
+  /* ── Gradient overlay ── */
+  .hero-{{ section.id }} .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      105deg,
+      rgba(72, 26, 140, 0.96) 0%,
+      rgba(88, 28, 160, 0.88) 35%,
+      rgba(107, 33, 168, 0.60) 58%,
+      rgba(126, 34, 206, 0.20) 78%,
+      transparent 100%
+    );
+  }
+
+  /* ── Grain ── */
+  .hero-{{ section.id }} .hero-grain {
+    position: absolute;
+    inset: 0;
+    opacity: .035;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    background-size: 180px;
+    pointer-events: none;
+  }
+
+  /* ── Content ── */
+  .hero-{{ section.id }} .hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 0 clamp(24px, 6vw, 80px);
+    max-width: 600px;
+  }
+
+  .hero-{{ section.id }} .hero-content > * {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: heroFadeUp-{{ section.id }} 0.7s forwards;
+  }
+  .hero-{{ section.id }} .hero-content > *:nth-child(1) { animation-delay: 0.05s; }
+  .hero-{{ section.id }} .hero-content > *:nth-child(2) { animation-delay: 0.18s; }
+  .hero-{{ section.id }} .hero-content > *:nth-child(3) { animation-delay: 0.30s; }
+  .hero-{{ section.id }} .hero-content > *:nth-child(4) { animation-delay: 0.40s; }
+  .hero-{{ section.id }} .hero-content > *:nth-child(5) { animation-delay: 0.50s; }
+  .hero-{{ section.id }} .hero-content > *:nth-child(6) { animation-delay: 0.60s; }
+
+  @keyframes heroFadeUp-{{ section.id }} {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── Badge ── */
+  .hero-{{ section.id }} .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    background: rgba(255,255,255,0.13);
+    border: 1px solid rgba(255,255,255,0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    color: #fff;
+    font-size: 0.67rem;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    padding: 6px 14px;
+    border-radius: 100px;
+    margin-bottom: 24px;
+    font-family: 'DM Sans', sans-serif;
+  }
+
+  /* ── Titre ── */
+  .hero-{{ section.id }} .hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.1rem, 4.8vw, 3.6rem);
+    font-weight: 800;
+    color: #fff;
+    line-height: 1.13;
+    letter-spacing: -0.01em;
+    margin-bottom: 20px;
+  }
+  .hero-{{ section.id }} .hero-title em {
+    font-style: italic;
+    font-weight: 700;
+    color: #d8b4fe;
+  }
+
+  /* ── Sous-titre ── */
+  .hero-{{ section.id }} .hero-sub {
+    font-family: 'DM Sans', sans-serif;
+    font-size: clamp(0.88rem, 1.5vw, 1.02rem);
+    font-weight: 300;
+    color: rgba(255,255,255,0.82);
+    line-height: 1.7;
+    margin-bottom: 34px;
+    max-width: 430px;
+  }
+
+  /* ── Bouton CTA ── */
+  .hero-{{ section.id }} .hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+    color: #3b0764;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 17px 38px;
+    border-radius: 60px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 6px 28px rgba(0,0,0,0.22);
+    letter-spacing: 0.005em;
+    width: 100%;
+    max-width: 360px;
+    justify-content: center;
+  }
+  .hero-{{ section.id }} .hero-cta:hover {
+    background: #f3e8ff;
+    transform: translateY(-2px);
+    box-shadow: 0 10px 36px rgba(0,0,0,0.28);
+  }
+  .hero-{{ section.id }} .hero-cta .arrow {
+    transition: transform 0.2s;
+    font-size: 1.1rem;
+  }
+  .hero-{{ section.id }} .hero-cta:hover .arrow { transform: translateX(4px); }
+
+  /* ── Garantie ── */
+  .hero-{{ section.id }} .hero-guarantee {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.76rem;
+    color: rgba(255,255,255,0.55);
+    margin-top: 10px;
+    text-align: center;
+    max-width: 360px;
+    letter-spacing: 0.01em;
+  }
+
+  /* ── Trust bar ── */
+  .hero-{{ section.id }} .hero-trust {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 26px;
+    flex-wrap: wrap;
+  }
+  .hero-{{ section.id }} .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgba(255,255,255,0.78);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+  .hero-{{ section.id }} .trust-stars {
+    color: #facc15;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+  }
+  .hero-{{ section.id }} .trust-score {
+    font-weight: 700;
+    color: #fff;
+  }
+  .hero-{{ section.id }} .trust-sep {
+    color: rgba(255,255,255,0.22);
+    font-size: 0.9rem;
+  }
+
+  /* ── MOBILE ── */
+  @media (max-width: 640px) {
+    .hero-{{ section.id }} {
+      align-items: flex-end;
+      min-height: 100svh;
+      max-height: none;
     }
-
-    @media (max-width: 640px) {
-      .hero-bg {
-        background-image: url('https://cdn.shopify.com/s/files/1/0934/8841/5098/files/Use_Image_1_as_the_Base_image__Nano_Banana_Pro_32253.jpg?v=1769117006');
-        background-position: center top;
-      }
-    }
-
-    /* ── Purple gradient overlay — left to right like the original ── */
-    .hero-overlay {
-      position: absolute;
-      inset: 0;
+    .hero-{{ section.id }} .hero-overlay {
       background: linear-gradient(
-        105deg,
-        rgba(72, 26, 140, 0.96) 0%,
-        rgba(88, 28, 160, 0.88) 35%,
-        rgba(107, 33, 168, 0.60) 58%,
-        rgba(126, 34, 206, 0.20) 78%,
-        transparent 100%
+        180deg,
+        rgba(72,26,140,0.30) 0%,
+        rgba(72,26,140,0.65) 40%,
+        rgba(72,26,140,0.96) 65%,
+        rgba(72,26,140,1) 100%
       );
     }
-
-    /* ── Grain texture for depth ── */
-    .hero-grain {
-      position: absolute;
-      inset: 0;
-      opacity: .035;
-      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
-      background-size: 180px;
-      pointer-events: none;
-    }
-
-    /* ── Content container ── */
-    .hero-content {
-      position: relative;
-      z-index: 2;
-      padding: 0 clamp(24px, 6vw, 80px);
-      max-width: 600px;
-    }
-
-    /* Staggered entrance animation */
-    .hero-content > * {
-      opacity: 0;
-      transform: translateY(20px);
-      animation: fadeUp 0.7s forwards;
-    }
-    .hero-content > *:nth-child(1) { animation-delay: 0.05s; }
-    .hero-content > *:nth-child(2) { animation-delay: 0.18s; }
-    .hero-content > *:nth-child(3) { animation-delay: 0.30s; }
-    .hero-content > *:nth-child(4) { animation-delay: 0.40s; }
-    .hero-content > *:nth-child(5) { animation-delay: 0.50s; }
-    .hero-content > *:nth-child(6) { animation-delay: 0.60s; }
-
-    @keyframes fadeUp {
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    /* ── Badge pill ── */
-    .hero-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 7px;
-      background: rgba(255,255,255,0.13);
-      border: 1px solid rgba(255,255,255,0.25);
-      backdrop-filter: blur(8px);
-      -webkit-backdrop-filter: blur(8px);
-      color: #fff;
-      font-size: 0.67rem;
-      font-weight: 600;
-      letter-spacing: 0.11em;
-      text-transform: uppercase;
-      padding: 6px 14px;
-      border-radius: 100px;
-      margin-bottom: 24px;
-    }
-
-    /* ── Headline ── */
-    .hero-title {
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(2.1rem, 4.8vw, 3.6rem);
-      font-weight: 800;
-      color: #fff;
-      line-height: 1.13;
-      letter-spacing: -0.01em;
-      margin-bottom: 20px;
-    }
-    .hero-title em {
-      font-style: italic;
-      font-weight: 700;
-      color: #d8b4fe; /* soft lavender — matches the image */
-    }
-
-    /* ── Sub-copy ── */
-    .hero-sub {
-      font-size: clamp(0.88rem, 1.5vw, 1.02rem);
-      font-weight: 300;
-      color: rgba(255,255,255,0.82);
-      line-height: 1.7;
-      margin-bottom: 34px;
-      max-width: 430px;
-    }
-
-    /* ── CTA Button ── */
-    .hero-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: #fff;
-      color: #3b0764;
-      font-family: 'DM Sans', sans-serif;
-      font-size: 1rem;
-      font-weight: 600;
-      padding: 17px 38px;
-      border-radius: 60px;
-      text-decoration: none;
-      border: none;
-      cursor: pointer;
-      transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 6px 28px rgba(0,0,0,0.22);
-      letter-spacing: 0.005em;
+    .hero-{{ section.id }} .hero-content {
+      max-width: 100%;
       width: 100%;
-      max-width: 360px;
-      justify-content: center;
+      padding: 0 22px 48px;
     }
-    .hero-cta:hover {
-      background: #f3e8ff;
-      transform: translateY(-2px);
-      box-shadow: 0 10px 36px rgba(0,0,0,0.28);
-    }
-    .hero-cta .arrow {
-      transition: transform 0.2s;
-      font-size: 1.1rem;
-    }
-    .hero-cta:hover .arrow { transform: translateX(4px); }
+    .hero-{{ section.id }} .hero-cta,
+    .hero-{{ section.id }} .hero-guarantee { max-width: 100%; }
+    .hero-{{ section.id }} .trust-sep { display: none; }
+    .hero-{{ section.id }} .hero-trust { gap: 10px; }
+  }
+</style>
 
-    /* ── Guarantee line ── */
-    .hero-guarantee {
-      font-size: 0.76rem;
-      color: rgba(255,255,255,0.55);
-      margin-top: 10px;
-      text-align: center;
-      max-width: 360px;
-      letter-spacing: 0.01em;
-    }
+<section class="hero-{{ section.id }}">
 
-    /* ── Trust bar ── */
-    .hero-trust {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      margin-top: 26px;
-      flex-wrap: wrap;
-    }
-    .trust-item {
-      display: flex;
-      align-items: center;
-      gap: 5px;
-      color: rgba(255,255,255,0.78);
-      font-size: 0.8rem;
-      font-weight: 400;
-    }
-    .trust-stars {
-      color: #facc15;
-      font-size: 0.85rem;
-      letter-spacing: 1px;
-    }
-    .trust-score {
-      font-weight: 700;
-      color: #fff;
-    }
-    .trust-sep {
-      color: rgba(255,255,255,0.22);
-      font-size: 0.9rem;
-      font-weight: 300;
-    }
-
-    /* ═══════════════════════════════════════════
-       MOBILE
-    ═══════════════════════════════════════════ */
-    @media (max-width: 640px) {
-      .hero {
-        align-items: flex-end;
-        min-height: 100svh;
-        max-height: none;
-      }
-
-      /* On mobile: stronger vertical gradient so text is legible over the full photo */
-      .hero-overlay {
-        background: linear-gradient(
-          180deg,
-          rgba(72,26,140,0.30) 0%,
-          rgba(72,26,140,0.65) 40%,
-          rgba(72,26,140,0.96) 65%,
-          rgba(72,26,140,1)    100%
-        );
-      }
-
-      .hero-content {
-        max-width: 100%;
-        width: 100%;
-        padding: 0 22px 48px;
-      }
-
-      .hero-cta, .hero-guarantee { max-width: 100%; }
-
-      .trust-sep { display: none; }
-      .hero-trust { gap: 10px; }
-    }
-  </style>
-</head>
-<body>
-
-<section class="hero">
-
-  <!-- 📸 Your background photo (woman in lab coat with purple beakers) -->
   <div class="hero-bg"></div>
-
-  <!-- Purple gradient overlay -->
   <div class="hero-overlay"></div>
-
-  <!-- Subtle grain -->
   <div class="hero-grain"></div>
 
-  <!-- Content -->
   <div class="hero-content">
 
-    <div class="hero-badge">
-      🇰🇷&nbsp; Formulé avec des dentistes coréens
-    </div>
+    {% if section.settings.badge != blank %}
+      <div class="hero-badge">{{ section.settings.badge }}</div>
+    {% endif %}
 
-    <h1 class="hero-title">
-      Le secret coréen pour des dents blanches
-      — <em>en 30 secondes</em>
-    </h1>
+    <h1 class="hero-title">{{ section.settings.title }}</h1>
 
-    <p class="hero-sub">
-      Le 1er bain de bouche violet correcteur qui neutralise les
-      tons jaunes. Sans peroxyde. Sans abrasion. Sans compromis.
-    </p>
+    {% if section.settings.subtitle != blank %}
+      <p class="hero-sub">{{ section.settings.subtitle }}</p>
+    {% endif %}
 
-    <a href="#" class="hero-cta">
-      Essayer maintenant <span class="arrow">→</span>
+    <a href="{{ section.settings.cta_link }}" class="hero-cta">
+      {{ section.settings.cta_text }} <span class="arrow">→</span>
     </a>
 
-    <p class="hero-guarantee">
-      Satisfait ou remboursé 30 jours &nbsp;·&nbsp; Livraison offerte
-    </p>
+    {% if section.settings.guarantee != blank %}
+      <p class="hero-guarantee">{{ section.settings.guarantee }}</p>
+    {% endif %}
 
     <div class="hero-trust">
-      <div class="trust-item">
-        <span class="trust-stars">★★★★★</span>
-        <span class="trust-score">4.8/5</span>
-      </div>
-      <span class="trust-sep">|</span>
-      <div class="trust-item">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
-        Yuka &nbsp;<span class="trust-score">94/100</span>
-      </div>
-      <span class="trust-sep">|</span>
-      <div class="trust-item">
-        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.7)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
-        Résultat immédiat
-      </div>
+      {% if section.settings.trust_1 != blank %}
+        <div class="trust-item">{{ section.settings.trust_1 }}</div>
+        <span class="trust-sep">|</span>
+      {% endif %}
+      {% if section.settings.trust_2 != blank %}
+        <div class="trust-item">{{ section.settings.trust_2 }}</div>
+        <span class="trust-sep">|</span>
+      {% endif %}
+      {% if section.settings.trust_3 != blank %}
+        <div class="trust-item">{{ section.settings.trust_3 }}</div>
+      {% endif %}
     </div>
 
   </div>
 
 </section>
 
-</body>
-</html>
+{% schema %}
+{
+  "name": "Hero Section",
+  "tag": "div",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_desktop",
+      "label": "Image Desktop (PC)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_mobile",
+      "label": "Image Mobile"
+    },
+    {
+      "type": "header",
+      "content": "Contenu"
+    },
+    {
+      "type": "text",
+      "id": "badge",
+      "label": "Badge",
+      "default": "🇰🇷  Formulé avec des dentistes coréens"
+    },
+    {
+      "type": "richtext",
+      "id": "title",
+      "label": "Titre",
+      "default": "<p>Le secret coréen pour des dents blanches — <em>en 30 secondes</em></p>"
+    },
+    {
+      "type": "textarea",
+      "id": "subtitle",
+      "label": "Sous-titre",
+      "default": "Le 1er bain de bouche violet correcteur qui neutralise les tons jaunes. Sans peroxyde. Sans abrasion. Sans compromis."
+    },
+    {
+      "type": "header",
+      "content": "Bouton"
+    },
+    {
+      "type": "text",
+      "id": "cta_text",
+      "label": "Texte du bouton",
+      "default": "Essayer maintenant"
+    },
+    {
+      "type": "url",
+      "id": "cta_link",
+      "label": "Lien du bouton"
+    },
+    {
+      "type": "text",
+      "id": "guarantee",
+      "label": "Ligne de garantie",
+      "default": "Satisfait ou remboursé 30 jours · Livraison offerte"
+    },
+    {
+      "type": "header",
+      "content": "Barre de confiance"
+    },
+    {
+      "type": "text",
+      "id": "trust_1",
+      "label": "Trust 1",
+      "default": "★★★★★ 4.8/5"
+    },
+    {
+      "type": "text",
+      "id": "trust_2",
+      "label": "Trust 2",
+      "default": "Yuka 94/100"
+    },
+    {
+      "type": "text",
+      "id": "trust_3",
+      "label": "Trust 3",
+      "default": "⚡ Résultat immédiat"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero Section"
+    }
+  ]
+}
+{% endschema %}
