@@ -16,6 +16,8 @@
         "image_desktop": "shopify://shop_images/Use_Image_1_as_the_Base_image__Nano_Banana_Pro_84456_1.jpg",
         "image_mobile": "shopify://shop_images/Use_Image_1_as_the_Base_image__Nano_Banana_Pro_32253_1.jpg",
         "mobile_height": 650,
+        "title_size_desktop": 41,
+        "title_size_mobile": 22,
         "badge": "🇰🇷  Formulé avec des dentistes coréens",
         "title": "<p>Le secret coréen pour des dents blanches — <em>en 30 secondes</em></p>",
         "subtitle": "Le 1er bain de bouche violet correcteur qui neutralise les tons jaunes. Sans peroxyde. Sans abrasion. Sans compromis.",
