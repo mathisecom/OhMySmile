@@ -829,7 +829,7 @@
             "background_gradient": "",
             "text_color": "#54315e",
             "text_gradient": "",
-            "button_background": "#54315e",
+            "button_background": "#682ca5",
             "button_text_color": ""
           }
         }
@@ -1014,7 +1014,7 @@
         "percentage_color": "#54315e",
         "button_text": "obtenir maintenant",
         "button_link": "",
-        "button_background": "#54315e",
+        "button_background": "#682ca5",
         "button_text_color": "#ffffff"
       }
     },
@@ -1039,7 +1039,7 @@
             "background_gradient": "",
             "text_color": "#33173b",
             "text_gradient": "",
-            "button_background": "#54315e",
+            "button_background": "#682ca5",
             "button_text_color": ""
           }
         }
@@ -1106,7 +1106,7 @@
             "button_full_width_mobile": true,
             "button_color": "#ffffff",
             "button_hover_color": "#ffffff",
-            "button_bg_color": "#54315e",
+            "button_bg_color": "#682ca5",
             "button_bg_hover_color": "#33173b",
             "button_border_color": "#1a1a1a",
             "button_border_hover_color": "#1a1a1a",
@@ -1196,7 +1196,7 @@
         "gradient_start": "#ffffff",
         "gradient_end": "#f4f4f4",
         "primary_column_use_gradient": false,
-        "primary_column_color": "#54315e",
+        "primary_column_color": "#682ca5",
         "primary_column_gradient_start": "#121212",
         "primary_column_gradient_end": "#404040",
         "primary_column_text_color": "#ffffff",
@@ -1317,7 +1317,7 @@
           "settings": {
             "text": "+3,000 SOURIRES CONQUIS",
             "heading_tag": "h3",
-            "text_color": "#54315e",
+            "text_color": "#682ca5",
             "gradient": ""
           }
         }
@@ -1333,7 +1333,7 @@
         "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#682ca5"
       }
     },
     "image_link_blocks_cb4RBH": {
@@ -1524,7 +1524,7 @@
         "heading_color": "",
         "heading_gradient": "",
         "testimonial_card_background": "#faf7fc",
-        "testimonial_card_text_color": ""
+        "testimonial_card_text_color": "#682ca5"
       }
     },
     "faq": {
@@ -1586,13 +1586,13 @@
         "text_position": "center",
         "background": "#fcfaf6",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#682ca5",
         "heading_color": "",
         "heading_gradient": "",
         "button_background": "",
         "button_text_color": "",
         "accordion_background": "",
-        "accordion_text_color": ""
+        "accordion_text_color": "#682ca5"
       }
     }
   },
