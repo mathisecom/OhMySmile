@@ -248,6 +248,7 @@
         },
         "image_VTH8Mg": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/DE_1.jpg",
             "alignment": "center",
