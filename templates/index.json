@@ -9,6 +9,21 @@
  */
 {
   "sections": {
+    "herosection_tew6jn": {
+      "type": "herosection",
+      "name": "Hero Section",
+      "settings": {
+        "badge": "🇰🇷  Formulé avec des dentistes coréens",
+        "title": "<p>Le secret coréen pour des dents blanches — <em>en 30 secondes</em></p>",
+        "subtitle": "Le 1er bain de bouche violet correcteur qui neutralise les tons jaunes. Sans peroxyde. Sans abrasion. Sans compromis.",
+        "cta_text": "Essayer maintenant",
+        "cta_link": "",
+        "guarantee": "Satisfait ou remboursé 30 jours · Livraison offerte",
+        "trust_1": "★★★★★ 4.8/5",
+        "trust_2": "Yuka 94/100",
+        "trust_3": "⚡ Résultat immédiat"
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -38,6 +53,7 @@
       "block_order": [
         "slide-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -238,7 +254,7 @@
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "",
+            "atc_button_background": "#682ca5ff",
             "atc_button_text_color": "",
             "payment_button_background": "",
             "payment_button_text_color": ""
@@ -1575,6 +1591,7 @@
     }
   },
   "order": [
+    "herosection_tew6jn",
     "slideshow",
     "ss_scrolling_logo_cloud_5_7Umcbr",
     "featured_product_TPFYjb",
